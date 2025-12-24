@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <title>Restoran Ukus</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dobrodošli u restoran "Ukus"</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Početna</a></li>
+        <li class="dropdown">
+          <a href="#">Strane ▼</a>
+          <ul class="submenu">
+            <li><a href="meni.html">Meni</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home-layout">
+    <section class="text-content">
+      <h2>Naša specijalna jela</h2>
+
+      <article>
+        <h3>🍝 Pasta Primavera</h3>
+        <p>Lagano jelo sa testeninom i svežim povrćem.</p>
+        <p><b>Recept:</b> testenina, tikvice, paprika, paradajz, maslinovo ulje.</p>
+        <p><b>Kalorije:</b> ~450 kcal po porciji.</p>
+        <a href="galerija.html#pasta">Pogledaj sliku →</a>
+      </article>
+
+      <article>
+        <h3>🥗 Grčka salata</h3>
+        <p>Osvežavajuća kombinacija povrća, maslina i feta sira.</p>
+        <p><b>Recept:</b> paradajz, krastavac, masline, feta sir, maslinovo ulje.</p>
+        <p><b>Kalorije:</b> ~300 kcal po porciji.</p>
+        <a href="galerija.html#salata">Pogledaj sliku →</a>
+      </article>
+
+      <article>
+        <h3>🍰 Čokoladni sufle</h3>
+        <p>Topao dezert sa tečnom čokoladnom sredinom.</p>
+        <p><b>Recept:</b> čokolada, jaja, puter, brašno, šećer.</p>
+        <p><b>Kalorije:</b> ~520 kcal po porciji.</p>
+        <a href="galerija.html#sufle">Pogledaj sliku →</a>
+      </article>
+    </section>
+
+    <aside class="side-panel">
+      <h2>Trenutno vreme</h2>
+      <div id="clock"></div>
+      <h2>Kalendar</h2>
+      <div id="calendar"></div>
+    </aside>
+  </main>
+</body>
+</html>
+
