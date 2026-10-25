@@ -1,2 +1,2 @@
 # Web
-Projekat iz web programiranja
+Projects and actual work I have done for private clients.
