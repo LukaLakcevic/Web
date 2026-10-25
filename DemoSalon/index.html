@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BLUSH Studio — beauty tretmani, nega i lepota na jednom mestu.">
+    <meta name="theme-color" content="#27151c">
+    <title>BLUSH Studio | Beauty & Care</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">BLUSH<span>.</span></a>
+
+        <nav class="nav" id="mainNav">
+            <a href="#home">Početna</a>
+            <a href="#services">Usluge</a>
+            <a href="#about">O nama</a>
+            <a href="#gallery">Galerija</a>
+        </nav>
+
+        <a href="#booking" class="header-cta">Zakaži termin <span>↗</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Otvori meni"
+                aria-expanded="false"
+                aria-controls="mainNav">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    YOUR BEAUTY, YOUR RITUAL
+                </p>
+
+                <h1>
+                    Lepota počinje<br>
+                    kada <em>izabereš sebe.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Tvoj trenutak mira, nege i samopouzdanja.
+                    Otkrij beauty rituale kreirane samo za tebe.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#booking" class="button-primary">
+                        Otkrij svoj ritual <span>↗</span>
+                    </a>
+
+                    <a href="#services" class="button-secondary">
+                        Istraži usluge <span>↓</span>
+                    </a>
+                </div>
+
+                <div class="hero-bottom">
+                    <div class="hero-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span>YOUR BEAUTY DESTINATION</span>
+                    </div>
+
+                    <span class="hero-index">01 / 04</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image"></div>
+
+                <div class="image-label">
+                    <span class="label-dot"></span>
+                    YOUR MOMENT. YOUR GLOW.
+                </div>
+
+                <div class="floating-note">
+                    <span class="note-star">✳</span>
+                    <span>Feel good.<br><em>Look radiant.</em></span>
+                </div>
+
+                <div class="vertical-text">BEAUTY · CARE · CONFIDENCE</div>
+            </div>
+
+            <div class="hero-decoration">B</div>
+
+        </section>
+
+        <section class="intro-strip">
+            <span>BEAUTY IS A FEELING</span>
+            <span class="strip-star">✳</span>
+            <span>CARE IS A RITUAL</span>
+            <span class="strip-star">✳</span>
+            <span>YOU ARE THE PRIORITY</span>
+        </section>
+
+        <!-- Naredne sekcije dodajemo u sledećim koracima. -->
+
+
+<!-- SERVICES -->
+<section class="services section-pad" id="services">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">THE BLUSH EXPERIENCE</p>
+            <h2>Mali rituali.<br><em>Velika razlika.</em></h2>
+        </div>
+        <p class="section-description">
+            Vreme posvećeno tebi, tretmani prilagođeni tvojoj koži
+            i osećaj zbog kog ćeš želeti da se vratiš.
+        </p>
+    </div>
+
+    <div class="service-grid">
+        <article class="service-card">
+            <div class="service-number">01 / SKIN</div>
+            <div class="service-icon">✳</div>
+            <h3>Facial Ritual</h3>
+            <p>Dubinsko čišćenje, hidratacija i svež, blistav izgled kože.</p>
+            <div class="service-meta">
+                <span>60 min</span><strong>3.500 RSD</strong>
+            </div>
+            <button class="service-book" data-treatment="Facial Ritual">
+                Izaberi tretman <span>↗</span>
+            </button>
+        </article>
+
+        <article class="service-card featured-service">
+            <span class="service-tag">FAVORITE</span>
+            <div class="service-number">02 / GLOW</div>
+            <div class="service-icon">✧</div>
+            <h3>Glow Treatment</h3>
+            <p>Personalizovana nega za hidriranu kožu i prirodan sjaj.</p>
+            <div class="service-meta">
+                <span>75 min</span><strong>4.500 RSD</strong>
+            </div>
+            <button class="service-book" data-treatment="Glow Treatment">
+                Izaberi tretman <span>↗</span>
+            </button>
+        </article>
+
+        <article class="service-card">
+            <div class="service-number">03 / BROWS</div>
+            <div class="service-icon">〰</div>
+            <h3>Brow Design</h3>
+            <p>Oblikovanje obrva koje ističe tvoje prirodne crte lica.</p>
+            <div class="service-meta">
+                <span>30 min</span><strong>1.500 RSD</strong>
+            </div>
+            <button class="service-book" data-treatment="Brow Design">
+                Izaberi tretman <span>↗</span>
+            </button>
+        </article>
+
+        <article class="service-card">
+            <div class="service-number">04 / LASHES</div>
+            <div class="service-icon">❋</div>
+            <h3>Lash Lift</h3>
+            <p>Naglašene trepavice i definisan pogled bez svakodnevnog stilizovanja.</p>
+            <div class="service-meta">
+                <span>50 min</span><strong>2.500 RSD</strong>
+            </div>
+            <button class="service-book" data-treatment="Lash Lift">
+                Izaberi tretman <span>↗</span>
+            </button>
+        </article>
+    </div>
+
+    <p class="demo-disclaimer">
+        Demonstracioni cenovnik — usluge i cene su ilustrativne.
+    </p>
+</section>
+
+<!-- ABOUT -->
+<section class="about section-pad" id="about">
+    <div class="about-visual">
+        <img
+            src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
+            alt="Beauty tretman u prijatnom ambijentu"
+            loading="lazy"
+        >
+        <div class="about-stamp">
+            <span>MADE FOR</span>
+            <strong>YOU</strong>
+            <span>WITH LOVE ✳</span>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>Više od nege.<br><em>Osećaj koji ostaje.</em></h2>
+
+        <p>
+            Verujemo da lepota nije u savršenstvu, već u tome kako se
+            osećaš u svojoj koži.
+        </p>
+        <p>
+            BLUSH je zamišljen kao tvoj mali beg od svakodnevice —
+            prostor za pažljivo odabrane tretmane, trenutke mira
+            i negu prilagođenu upravo tebi.
+        </p>
+
+        <div class="about-stats">
+            <div>
+                <strong>01</strong>
+                <span>Tvoj trenutak</span>
+            </div>
+            <div>
+                <strong>100%</strong>
+                <span>Pažnja prema tebi</span>
+            </div>
+            <div>
+                <strong>∞</strong>
+                <span>Razloga za glow</span>
+            </div>
+        </div>
+
+        <a href="#booking" class="button-primary about-cta">
+            Upoznaj BLUSH <span>↗</span>
+        </a>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery section-pad" id="gallery">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">THE BLUSH MOOD</p>
+            <h2>Detalji koji čine<br><em>razliku.</em></h2>
+        </div>
+        <p class="section-description">
+            Trenuci nege, pažljivo birani detalji i inspiracija
+            za tvoj sledeći beauty ritual.
+        </p>
+    </div>
+
+    <div class="gallery-grid">
+        <button class="gallery-item gallery-tall"
+                data-full="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1400&q=90"
+                aria-label="Uvećaj fotografiju beauty tretmana">
+            <img
+                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=85"
+                alt="Beauty tretman"
+                loading="lazy"
+            >
+            <span class="gallery-overlay">THE ART OF CARE ↗</span>
+        </button>
+
+        <button class="gallery-item"
+                data-full="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=1400&q=90"
+                aria-label="Uvećaj fotografiju beauty enterijera">
+            <img
+                src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=85"
+                alt="Detalji beauty prostora"
+                loading="lazy"
+            >
+            <span class="gallery-overlay">YOUR HAPPY PLACE ↗</span>
+        </button>
+
+        <button class="gallery-item"
+                data-full="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1400&q=90"
+                aria-label="Uvećaj fotografiju nege kože">
+            <img
+                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=85"
+                alt="Nega kože"
+                loading="lazy"
+            >
+            <span class="gallery-overlay">YOUR DAILY GLOW ↗</span>
+        </button>
+    </div>
+
+    <p class="gallery-hint">Klikni na fotografiju za uvećan prikaz.</p>
+</section>
+
+<!-- BOOKING -->
+<section class="booking section-pad" id="booking">
+    <div class="booking-intro">
+        <p class="eyebrow">YOUR TIME STARTS HERE</p>
+        <h2>Rezerviši svoj<br><em>trenutak.</em></h2>
+        <p>
+            Nekoliko jednostavnih koraka do malo vremena
+            posvećenog samo tebi.
+        </p>
+
+        <div class="booking-note">
+            <span>✳</span>
+            <div>
+                <strong>YOU DESERVE THIS.</strong>
+                <p>Izaberi tretman, datum i vreme koje ti odgovara.</p>
+            </div>
+        </div>
+    </div>
+
+    <form class="booking-form" id="bookingForm">
+        <div class="form-heading">
+            <span>BLUSH STUDIO</span>
+            <span>APPOINTMENT REQUEST</span>
+        </div>
+
+        <label for="bookingName">Ime i prezime</label>
+        <input
+            type="text"
+            id="bookingName"
+            name="name"
+            placeholder="Kako se zoveš?"
+            autocomplete="name"
+            required
+            minlength="2"
+        >
+
+        <label for="bookingEmail">Email adresa</label>
+        <input
+            type="email"
+            id="bookingEmail"
+            name="email"
+            placeholder="ime@email.com"
+            autocomplete="email"
+            required
+        >
+
+        <label for="bookingPhone">Broj telefona</label>
+        <input
+            type="tel"
+            id="bookingPhone"
+            name="phone"
+            placeholder="06x xxx xxxx"
+            autocomplete="tel"
+            required
+        >
+
+        <label for="bookingTreatment">Izaberi tretman</label>
+        <select id="bookingTreatment" name="treatment" required>
+            <option value="">Odaberi uslugu</option>
+            <option value="Facial Ritual">Facial Ritual — 3.500 RSD</option>
+            <option value="Glow Treatment">Glow Treatment — 4.500 RSD</option>
+            <option value="Brow Design">Brow Design — 1.500 RSD</option>
+            <option value="Lash Lift">Lash Lift — 2.500 RSD</option>
+        </select>
+
+        <div class="form-row">
+            <div>
+                <label for="bookingDate">Datum</label>
+                <input type="date" id="bookingDate" name="date" required>
+            </div>
+
+            <div>
+                <label for="bookingTime">Vreme</label>
+                <select id="bookingTime" name="time" required>
+                    <option value="">Izaberi vreme</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
+            </div>
+        </div>
+
+        <label for="bookingMessage">Dodatna napomena (opciono)</label>
+        <textarea
+            id="bookingMessage"
+            name="message"
+            rows="3"
+            placeholder="Da li želiš nešto dodatno da nam kažeš?"
+        ></textarea>
+
+        <button class="button-primary booking-submit" type="submit">
+            Prikaži potvrdu <span>↗</span>
+        </button>
+
+        <p class="form-disclaimer">
+            Demo rezervacija — podaci se ne šalju salonu.
+        </p>
+
+        <div class="booking-result" id="bookingResult"
+             role="status" aria-live="polite" hidden></div>
+    </form>
+</section>
+
+    <!-- CONTACT -->
+    <section class="contact section-pad" id="contact">
+        <div>
+            <p class="eyebrow">COME SAY HELLO</p>
+            <h2>Tvoj novi omiljeni<br><em>kutak čeka.</em></h2>
+        </div>
+
+        <div class="contact-details">
+            <div>
+                <span>POSети NAS</span>
+                <p>Beograd, Srbija</p>
+            </div>
+            <div>
+                <span>RADNO VREME</span>
+                <p>Pon – Sub · 09:00–18:00</p>
+            </div>
+            <div>
+                <span>PRONAĐI NAS</span>
+                <a href="https://www.instagram.com/" target="_blank"
+                   rel="noopener noreferrer">Instagram ↗</a>
+            </div>
+        </div>
+        <p class="contact-disclaimer">
+            Kontakt podaci su demonstracioni i prilagodiće se stvarnom salonu.
+        </p>
+    </section>
+
+    <!-- GALLERY LIGHTBOX -->
+    <div class="lightbox" id="galleryLightbox" hidden>
+        <button class="lightbox-close" id="lightboxClose"
+                aria-label="Zatvori fotografiju">×</button>
+        <img id="lightboxImage" src="" alt="Uvećana fotografija">
+    </div>
+        <section class="services-placeholder" id="services">
+            <p class="eyebrow">DISCOVER BLUSH</p>
+            <h2>Vreme je za <em>tebe.</em></h2>
+        </section>
+
+        <section id="about"></section>
+        <section id="gallery"></section>
+        <section id="booking"></section>
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="logo">BLUSH<span>.</span></a>
+        <p>Beauty is a feeling.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

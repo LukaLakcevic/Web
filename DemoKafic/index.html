@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOIR Coffee — specialty kafa, pažljivo odabrana zrna i gradski ritual.">
+    <meta name="theme-color" content="#211a16">
+
+    <title>NOIR Coffee | Your Daily Ritual</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">NOIR<span>.</span></a>
+
+        <nav class="nav" id="mainNav">
+            <a href="#home">Home</a>
+            <a href="#menu">Our menu</a>
+            <a href="#story">Our story</a>
+            <a href="#visit">Find us</a>
+        </nav>
+
+        <a href="#menu" class="header-cta">
+            Explore menu <span>↗</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Otvori meni"
+                aria-expanded="false"
+                aria-controls="mainNav">
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    SPECIALTY COFFEE · GOOD COMPANY
+                </p>
+
+                <h1>
+                    Life happens.<br>
+                    <em>Coffee helps.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Carefully sourced beans. Thoughtfully crafted cups.
+                    Your new favorite place in the city.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="button-primary">
+                        Discover our menu <span>↗</span>
+                    </a>
+
+                    <a href="#story" class="button-secondary">
+                        Our philosophy <span>↓</span>
+                    </a>
+                </div>
+
+                <div class="hero-bottom">
+                    <div>
+                        <span class="rating-stars">✳</span>
+                        <span class="hero-caption">BREWED WITH INTENTION</span>
+                    </div>
+                    <span class="hero-index">EST. 2026</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image"></div>
+
+                <div class="image-label">
+                    <span class="label-dot"></span>
+                    YOUR DAILY RITUAL
+                </div>
+
+                <div class="floating-note">
+                    <span class="note-star">✳</span>
+                    <span>Slow mornings.<br><em>Better coffee.</em></span>
+                </div>
+
+                <div class="vertical-text">ROASTED · BREWED · SERVED</div>
+            </div>
+
+            <div class="hero-decoration">N</div>
+        </section>
+
+        <section class="intro-strip">
+            <span>GOOD COFFEE</span>
+            <span class="strip-star">✳</span>
+            <span>GOOD PEOPLE</span>
+            <span class="strip-star">✳</span>
+            <span>NO BAD DAYS</span>
+        </section>
+
+        <section class="menu-section section-pad" id="menu">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE GOOD STUFF</p>
+                    <h2>Your daily<br><em>coffee ritual.</em></h2>
+                </div>
+                <p class="section-description">
+                    From your first morning espresso to that
+                    afternoon iced latte. Find your usual.
+                </p>
+            </div>
+
+            <div class="menu-filters" id="menuFilters">
+                <button class="filter-button active" data-category="all">All</button>
+                <button class="filter-button" data-category="coffee">Coffee</button>
+                <button class="filter-button" data-category="cold">Cold drinks</button>
+                <button class="filter-button" data-category="bakery">Bakery</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid"></div>
+
+            <div class="cart-summary" id="cartSummary" aria-live="polite">
+                <span>YOUR ORDER</span>
+                <strong id="cartCount">0 items</strong>
+                <strong id="cartTotal">0 RSD</strong>
+                <button id="clearCart" type="button">Clear</button>
+            </div>
+
+            <p class="demo-disclaimer">
+                Demo menu and prices. Ordering and payment are not enabled.
+            </p>
+        </section>
+
+        <section class="story section-pad" id="story">
+            <div class="story-image">
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1100&q=85"
+                    alt="Topao i moderan ambijent coffee shopa"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="story-content">
+                <p class="eyebrow">MORE THAN A COFFEE</p>
+                <h2>A little pause<br>in a <em>busy world.</em></h2>
+
+                <p>
+                    NOIR is a concept built around the small things:
+                    exceptional coffee, good conversations and
+                    spaces that make you want to stay a little longer.
+                </p>
+
+                <p>
+                    We believe the best coffee isn't just about
+                    what's in your cup. It's about how the moment feels.
+                </p>
+
+                <a href="#visit" class="button-primary">
+                    Come say hello <span>↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="visit section-pad" id="visit">
+            <div>
+                <p class="eyebrow">YOUR TABLE IS WAITING</p>
+                <h2>Meet you<br><em>over coffee.</em></h2>
+            </div>
+
+            <div class="visit-details">
+                <div>
+                    <span>FIND US</span>
+                    <p>Belgrade, Serbia</p>
+                </div>
+                <div>
+                    <span>OPENING HOURS</span>
+                    <p>Mon–Fri · 08:00–20:00</p>
+                    <p>Sat–Sun · 09:00–21:00</p>
+                </div>
+                <div>
+                    <span>FOLLOW OUR DAILY BREW</span>
+                    <a href="https://www.instagram.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">Instagram ↗</a>
+                </div>
+            </div>
+            <p class="demo-disclaimer">
+                Concept brand. Location and hours are illustrative.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">NOIR<span>.</span></a>
+        <p>Good coffee. Better company.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

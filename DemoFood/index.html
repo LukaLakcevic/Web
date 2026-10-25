@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SLICE District | Pizza & Street Food</title>
+    <meta name="description" content="SLICE District — pizza, burgeri i street food. Pronađi svog favorita i poruči.">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="#" class="logo">
+            SLICE<span>DISTRICT.</span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#menu">MENI</a>
+            <a href="#about">O NAMA</a>
+            <a href="#contact">KONTAKT</a>
+        </nav>
+
+        <a href="#menu" class="header-order">
+            PORUČI <span>↗</span>
+        </a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">PIZZA · BURGERS · STREET FOOD</p>
+
+                <h1>
+                    HUNGRY?
+                    <span>GOOD.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Bez komplikovanja. Samo dobra hrana,
+                    kvalitetni sastojci i ukusi kojima se vraćaš.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="button button-primary">
+                        POGLEDAJ MENI <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        NAŠA PRIČA
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    DOBRA HRANA. BEZ PRAZNE PRIČE.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <!-- Fotografiju dodajemo kroz CSS u sledećem koraku. -->
+                    <div class="image-label">FRESH OUT THE OVEN</div>
+                </div>
+
+                <div class="hero-sticker">
+                    <span>MADE</span>
+                    <strong>FRESH</strong>
+                    <span>DAILY!</span>
+                </div>
+
+                <div class="hero-index">SD — 001 / GOOD TASTE</div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>CRAFTED FOR THE HUNGRY.</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">WHAT'S COOKING?</p>
+                    <h2>THE <span>MENU.</span></h2>
+                </div>
+
+                <p class="section-description">
+                    Tvoji favoriti, napravljeni kako treba.
+                    Izaberi kategoriju i pronađi sledeći obrok.
+                </p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="category-button active" data-category="pizza">
+                    PIZZA <span>01</span>
+                </button>
+
+                <button class="category-button" data-category="burgers">
+                    BURGERS <span>02</span>
+                </button>
+
+                <button class="category-button" data-category="sandwiches">
+                    SANDWICHES <span>03</span>
+                </button>
+
+                <button class="category-button" data-category="sides">
+                    SIDES <span>04</span>
+                </button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Proizvode i cene ubacujemo pomoću JavaScripta. -->
+            </div>
+
+            <p class="demo-note">
+                Demo meni — proizvodi i cene služe kao primer.
+            </p>
+        </section>
+
+        <section class="about-section" id="about">
+            <p class="eyebrow">NO SHORTCUTS. JUST GOOD FOOD.</p>
+
+            <h2>
+                SIMPLE FOOD.
+                <span>BIG FLAVOUR.</span>
+            </h2>
+
+            <p>
+                Dobra hrana ne mora da bude komplikovana.
+                Biramo dobre sastojke, pripremamo sveže i
+                služimo hranu koju bismo i sami ponovo naručili.
+            </p>
+
+            <a href="#menu" class="button button-primary">
+                PRONAĐI SVOJ FAVORIT ↗
+            </a>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div>
+                <p class="eyebrow">COME THROUGH</p>
+                <h2>LET'S <span>EAT.</span></h2>
+            </div>
+
+            <div class="contact-details">
+                <p>Adresa: primer adrese, Beograd</p>
+                <p>Telefon: 060 000 0000</p>
+                <p>Radno vreme: svakog dana, 10–23 h</p>
+                <p class="demo-note">Kontakt podaci su izmišljeni za demo.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a href="#" class="logo">SLICE<span>DISTRICT.</span></a>
+
+        <p>GOOD FOOD. GOOD MOOD.</p>
+
+        <p>© 2026 SLICE District — Demo projekat</p>
+    </footer>
+
+</body>
+</html>
